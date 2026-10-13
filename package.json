@@ -1,0 +1,30 @@
+{
+  "name": "jsonlog-view",
+  "version": "0.1.0",
+  "description": "Zero-dependency streaming JSONL log viewer: pretty-print, filter by level/field/grep/time, stats, follow mode.",
+  "type": "module",
+  "bin": {
+    "jsonlog-view": "./bin/jsonlog-view.js"
+  },
+  "scripts": {
+    "test": "node --test test/*.test.js"
+  },
+  "keywords": [
+    "jsonl",
+    "logs",
+    "log-viewer",
+    "cli",
+    "devops",
+    "debugging",
+    "json-logs",
+    "tail"
+  ],
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rayhanlimon/jsonlog-view.git"
+  }
+}
